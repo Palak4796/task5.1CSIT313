@@ -1,0 +1,66 @@
+.article-form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #bdc3c7;
+}
+
+.article-form h2 {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.article-form .field label {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 6px;
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-size: 23px;
+}
+
+.article-form .ui.input input,
+.article-form .ui.textarea {
+    border-radius: 8px;
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.article-form .ui.textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.article-form .ui.input input:focus,
+.article-form .ui.textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 1px rgba(52, 152, 219, 0.3);
+    outline: none;
+}
+
+.article-form .ui.input input::placeholder,
+.article-form .ui.textarea::placeholder {
+    color: #95a5a6;
+    font-family: 'Arial', sans-serif;
+}
+
+.article-form .ui.input input {
+    margin-bottom: 12px;
+}
+
+.article-form .ui.textarea {
+    margin-bottom: 16px;
+}
